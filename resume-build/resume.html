@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+@page { size: A4; margin: 0.6in 0.7in; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 9.5pt; line-height: 1.45; color: #1a1a2e; }
+
+.header { text-align: center; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 2.5px solid #2563eb; }
+.header h1 { font-size: 22pt; font-weight: 700; color: #1a1a2e; letter-spacing: 0.5px; }
+.header .title { font-size: 11pt; color: #2563eb; font-weight: 600; margin-top: 2px; }
+.header .contact { font-size: 8.5pt; color: #555; margin-top: 5px; }
+.header .contact span { margin: 0 6px; }
+.header .contact a { color: #2563eb; text-decoration: none; }
+
+.section { margin-bottom: 10px; }
+.section-title { font-size: 11pt; font-weight: 700; color: #2563eb; text-transform: uppercase; letter-spacing: 1.2px; border-bottom: 1.2px solid #ccc; padding-bottom: 2px; margin-bottom: 6px; }
+
+/* Summary */
+.summary { font-size: 9pt; color: #333; line-height: 1.5; text-align: justify; }
+
+/* Education */
+.edu-item { margin-bottom: 5px; }
+.edu-item .row { display: flex; justify-content: space-between; align-items: baseline; }
+.edu-item .degree { font-weight: 600; font-size: 9.5pt; }
+.edu-item .institution { font-size: 9pt; color: #333; }
+.edu-item .duration { font-size: 8.5pt; color: #666; }
+.edu-item .grade { font-size: 8.5pt; color: #555; font-style: italic; }
+
+/* Experience */
+.exp-item { margin-bottom: 8px; }
+.exp-item .row { display: flex; justify-content: space-between; align-items: baseline; }
+.exp-item .role { font-weight: 600; font-size: 9.5pt; }
+.exp-item .company { font-size: 9pt; color: #333; }
+.exp-item .year { font-size: 8.5pt; color: #666; }
+.exp-item ul { margin: 2px 0 3px 16px; }
+.exp-item li { font-size: 8.5pt; color: #444; margin-bottom: 1px; }
+.exp-item .tech { font-size: 8pt; color: #2563eb; margin-top: 1px; }
+
+/* Projects */
+.proj-item { margin-bottom: 6px; break-inside: avoid; }
+.proj-item .row { display: flex; justify-content: space-between; align-items: baseline; }
+.proj-item .name { font-weight: 600; font-size: 9.5pt; }
+.proj-item .links { font-size: 8pt; }
+.proj-item .links a { color: #2563eb; text-decoration: none; }
+.proj-item .desc { font-size: 8.5pt; color: #444; margin: 1px 0 2px 0; }
+.proj-item .tech { font-size: 8pt; color: #555; margin-top: 1px; }
+.proj-item .tech span { display: inline-block; background: #eef2ff; padding: 0 5px; border-radius: 3px; margin-right: 3px; }
+
+/* Skills */
+.skills-grid { display: flex; flex-wrap: wrap; gap: 2px 0; }
+.skills-grid .cat { width: 50%; margin-bottom: 3px; }
+.skills-grid .cat strong { font-size: 8.5pt; }
+.skills-grid .cat .items { font-size: 8.5pt; color: #444; }
+
+/* Certs */
+.cert-item { font-size: 8.5pt; margin-bottom: 2px; }
+.cert-item strong { font-weight: 600; }
+.cert-item .issuer { color: #555; }
+.cert-item .year { color: #666; }
+
+/* Achievements / Extra */
+.extra-item { font-size: 8.5pt; color: #444; margin-bottom: 2px; }
+
+.two-col { display: flex; gap: 20px; }
+.two-col > div { flex: 1; }
+
+.table { margin-top: 4px; }
+.table-row { display: flex; border-bottom: 1px solid #eee; padding: 2px 0; }
+.table-row .label { width: 90px; font-weight: 600; font-size: 8.5pt; color: #333; flex-shrink: 0; }
+.table-row .value { font-size: 8.5pt; color: #444; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CHANDAN KUMAR BEHERA</h1>
+  <div class="title">AI Engineer &amp; Full-Stack Developer</div>
+  <div class="contact">
+    <span>📞 +91-7205076033</span> |
+    <span>📧 kumarchandan12345a@gmail.com</span> |
+    <span>📍 Bhubaneswar, Odisha, India</span>
+    <br>
+    <span>🔗 <a href="https://github.com/Sirius6907">github.com/Sirius6907</a></span> |
+    <span>🔗 <a href="https://linkedin.com/in/chandan-kumar-behera-sirius">linkedin.com/in/chandan-kumar-behera-sirius</a></span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Summary</div>
+  <p class="summary">
+    AI Engineer and Full-Stack Developer who builds intelligent systems that ship. 
+    Architecting multi-agent AI orchestrators with LangChain, LangGraph, and FastAPI, 
+    while also delivering full-stack web applications with React, Next.js, and Node.js. 
+    Proven ability to design RAG pipelines, autonomous AI agents, and real-time communication 
+    platforms. Active security researcher on HackerOne. Strong problem-solver who learns fast 
+    and delivers production-grade code across Python, TypeScript, Rust, and AWS.
+  </p>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-item">
+    <div class="row">
+      <span class="degree">B.Tech in Computer Science &amp; Engineering</span>
+      <span class="duration">Expected May 2026</span>
+    </div>
+    <div class="institution">Centurion University of Technology and Management, Bhubaneswar</div>
+    <div class="grade">CGPA: 8.5 / 10</div>
+  </div>
+  <div class="edu-item">
+    <div class="row">
+      <span class="degree">Higher Secondary (CHSE)</span>
+      <span class="duration">2020 – 2022</span>
+    </div>
+    <div class="institution">Vinayak Residential College, Bhadrak</div>
+    <div class="grade">Percentage: 68.50%</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Experience</div>
+  <div class="exp-item">
+    <div class="row">
+      <span><span class="role">Full-Stack Developer Intern</span> — <span class="company">Campus Technology</span></span>
+      <span class="year">Apr 2025 – Jul 2025</span>
+    </div>
+    <ul>
+      <li>Engineered dynamic React interfaces with Redux state management, delivering smooth real-time user experiences across the full stack.</li>
+      <li>Built RESTful APIs with Node.js and Express, integrating MongoDB for persistent data and Socket.IO for live communication.</li>
+      <li>Optimized components and refactored legacy code into modular architecture, improving maintainability and performance.</li>
+    </ul>
+    <div class="tech">Stack: React, Redux, Node.js, Express, MongoDB, Socket.IO, Tailwind CSS, JWT</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Projects</div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">Nexus AI Orchestrator</span>
+      <span class="links"><a href="https://github.com/Sirius6907/Nexus-AI-Orchestrator">GitHub</a> | <a href="https://nexus-ai-orchestrator.onrender.com">Demo</a></span>
+    </div>
+    <div class="desc">
+      Multi-LLM orchestrator routing queries across Claude, GPT-4, and Gemini with intelligent model selection, 
+      fallback chains, and cost optimization. Designed for production-grade AI routing.
+    </div>
+    <div class="tech"><span>Python</span><span>LangChain</span><span>FastAPI</span><span>Docker</span><span>AWS</span></div>
+  </div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">Siriusly — Multi-Agent AI System</span>
+      <span class="links"><a href="https://github.com/Sirius6907/Siriusly">GitHub</a> | <a href="https://siriusly.onrender.com">Demo</a></span>
+    </div>
+    <div class="desc">
+      Multi-agent system with autonomous task delegation, tool use, and inter-agent communication 
+      for complex problem solving. Built with LangGraph and FastAPI.
+    </div>
+    <div class="tech"><span>Python</span><span>LangGraph</span><span>OpenAI</span><span>FastAPI</span><span>TypeScript</span></div>
+  </div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">B.U.D.D.Y Mark-67 — Autonomous AI Agent</span>
+      <span class="links"><a href="https://github.com/Sirius6907/B.U.D.D.Y-Mark-67">GitHub</a></span>
+    </div>
+    <div class="desc">
+      Autonomous AI agent with persistent memory (ChromaDB), tool execution, and self-directed 
+      task planning for real-world automation.
+    </div>
+    <div class="tech"><span>Python</span><span>LangChain</span><span>ChromaDB</span><span>FastAPI</span><span>React</span></div>
+  </div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">SiriClaw — Rust-Native AI Tool</span>
+      <span class="links"><a href="https://github.com/Sirius6907/SiriClaw">GitHub</a></span>
+    </div>
+    <div class="desc">
+      High-performance inference and automation tool built in Rust. Blazingly fast with 
+      minimal memory footprint for AI workloads.
+    </div>
+    <div class="tech"><span>Rust</span><span>Tokio</span><span>OpenAI API</span><span>Serde</span></div>
+  </div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">S-LiveChat — Real-Time Communication</span>
+      <span class="links"><a href="https://github.com/Sirius6907/S-LiveChat">GitHub</a> | <a href="https://s-livechat.onrender.com">Demo</a></span>
+    </div>
+    <div class="desc">
+      Real-time chat application with text messaging, video calls, and screen sharing via WebRTC.
+    </div>
+    <div class="tech"><span>Socket.IO</span><span>WebRTC</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+  </div>
+
+  <div class="proj-item">
+    <div class="row">
+      <span class="name">Soniq AI Music Generator</span>
+      <span class="links"><a href="https://github.com/Sirius6907/Soniq-AI-Music-Generator">GitHub</a> | <a href="https://soniq-ai.onrender.com">Demo</a></span>
+    </div>
+    <div class="desc">
+      AI-powered music generator turning text prompts into original soundtracks using Hugging Face models.
+    </div>
+    <div class="tech"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Hugging Face</span><span>Tailwind CSS</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <div class="cat"><strong>Languages:</strong> <span class="items">Python, TypeScript, JavaScript, Rust, SQL, HTML/CSS</span></div>
+    <div class="cat"><strong>AI &amp; ML:</strong> <span class="items">LangChain, LangGraph, OpenAI/Claude API, RAG Pipelines, Multi-Agent Systems, Vector DBs</span></div>
+    <div class="cat"><strong>Frontend:</strong> <span class="items">React, Next.js, Tailwind CSS, Framer Motion, GSAP</span></div>
+    <div class="cat"><strong>Backend:</strong> <span class="items">FastAPI, Node.js, Express, REST APIs, WebSockets</span></div>
+    <div class="cat"><strong>Databases:</strong> <span class="items">MongoDB, PostgreSQL, Redis, ChromaDB, Firestore</span></div>
+    <div class="cat"><strong>Cloud &amp; DevOps:</strong> <span class="items">AWS (EC2, S3, Lambda), Docker, CI/CD, Vercel, Render</span></div>
+    <div class="cat"><strong>Security:</strong> <span class="items">Bug Bounty Hunting (HackerOne), OWASP, Web Security Testing</span></div>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <div class="cert-item"><strong>SAP Certified Associate — Back-End Developer (ABAP Cloud)</strong> — <span class="issuer">SAP</span> <span class="year">2025</span></div>
+    <div class="cert-item"><strong>OCI Generative AI Certified Professional</strong> — <span class="issuer">Oracle</span> <span class="year">2024</span></div>
+    <div class="cert-item"><strong>OCI Multicloud Architect Professional</strong> — <span class="issuer">Oracle</span> <span class="year">2025</span></div>
+    <div class="cert-item"><strong>Advanced MERN Development</strong> — <span class="issuer">Infosys Springboard</span> <span class="year">2025</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Languages &amp; Interests</div>
+    <div class="extra-item"><strong>Languages:</strong> Odia (Proficient), Hindi (Advanced), English (Advanced)</div>
+    <div class="extra-item" style="margin-top:4px;"><strong>Interests:</strong> AI/ML Research, System Architecture, Security Research, Open Source, Chess</div>
+  </div>
+</div>
+
+</body>
+</html>
