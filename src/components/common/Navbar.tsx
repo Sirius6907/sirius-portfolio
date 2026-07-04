@@ -9,7 +9,6 @@ import { RiMenu4Fill, RiCloseLargeFill } from "react-icons/ri";
 import { quentine } from "@/app/fonts";
 
 import { Button } from "../ui/button";
-import { createBlurDataURL } from "@/lib/BlurDataURL";
 import { selfData } from "@/constant";
 
 /* Magnetic hover — pulls link toward cursor */

@@ -255,7 +255,7 @@ export const WebGLBackground = () => {
     const uScroll = gl.getUniformLocation(program, "uScroll");
 
     let animationId: number;
-    let startTime = Date.now();
+    const startTime = Date.now();
 
     const resize = () => {
       const width = window.innerWidth;

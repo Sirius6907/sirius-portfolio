@@ -79,8 +79,7 @@ export function CustomCursor() {
           background: hovered
             ? "hsl(var(--accent) / 0.9)"
             : "hsl(var(--foreground) / 0.6)",
-          translateX: "-50%",
-          translateY: "-50%",
+          transform: "translate(-50%, -50%)",
           transition: "all 0.1s ease",
         }}
       />
