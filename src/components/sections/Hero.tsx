@@ -7,7 +7,7 @@ import { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { selfData } from "@/constant";
 
-import { quentine, mono } from "@/app/fonts";
+import { nasalization, mono } from "@/app/fonts";
 
 const Typewriter = ({ texts, speed = 80, deleteSpeed = 40, pauseDuration = 2000 }: { texts: string[]; speed?: number; deleteSpeed?: number; pauseDuration?: number }) => {
   const [displayText, setDisplayText] = useState("");
@@ -246,7 +246,7 @@ export const Hero = () => {
             </motion.div>
 
             <motion.h1
-              className={`${quentine.className} text-5xl md:text-7xl lg:text-8xl font-bold gradient-text`}
+              className={`${nasalization.className} text-5xl md:text-7xl lg:text-8xl font-bold gradient-text`}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{
@@ -283,7 +283,7 @@ export const Hero = () => {
               />
               <motion.p
                 className={`${mono.className} text-lg md:text-xl h-8`}
-                style={{ color: "hsl(var(--secondary))" }}
+                style={{ color: "hsl(var(--primary))" }}
               >
                 <Typewriter texts={roles} />
               </motion.p>

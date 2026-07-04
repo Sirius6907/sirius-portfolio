@@ -6,7 +6,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 import { RiMenu4Fill, RiCloseLargeFill } from "react-icons/ri";
 
-import { quentine } from "@/app/fonts";
+import { nasalization } from "@/app/fonts";
 
 import { Button } from "../ui/button";
 import { selfData } from "@/constant";
@@ -135,7 +135,7 @@ export const Navbar = () => {
               />
             </div>
             <span
-              className={`${quentine.className} text-primary-foreground text-xl sm:text-base hidden sm:inline`}
+              className={`${nasalization.className} text-primary-foreground text-xl sm:text-base hidden sm:inline`}
             >
               {selfData.name}
             </span>
@@ -153,7 +153,7 @@ export const Navbar = () => {
                   style={{
                     color: isActive
                       ? "hsl(var(--primary))"
-                      : "hsl(var(--foreground) / 0.6)",
+                      : "hsl(var(--foreground) / 0.85)",
                   }}
                 >
                   {link.label}

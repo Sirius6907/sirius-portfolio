@@ -5,7 +5,7 @@ import { Toaster } from "sonner";
 
 import { inter, mono, nasalization, quentine } from "./fonts";
 
-import { CustomCursor, WebGLBackground } from "@/components/common";
+import { CustomCursor } from "@/components/common";
 import { keywords } from "@/constant";
 import {
   generatePersonStructuredData,
@@ -124,7 +124,6 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         {children}
-        <WebGLBackground />
         <div className="vignette-overlay" />
         <CustomCursor />
         <Toaster position="bottom-right" richColors closeButton />

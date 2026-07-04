@@ -9,6 +9,5 @@ import { GitHubStats } from "./GitHubStats";
 import { CustomCursor } from "./CustomCursor";
 import { RippleEffect } from "./RippleEffect";
 import { SectionReveal } from "./SectionReveal";
-import { WebGLBackground } from "./WebGLBackground";
 
-export { Navbar, Footer, PreLoader, Clip, Background, ScrollProgressBar, BackToTop, GitHubStats, CustomCursor, RippleEffect, SectionReveal, WebGLBackground };
+export { Navbar, Footer, PreLoader, Clip, Background, ScrollProgressBar, BackToTop, GitHubStats, CustomCursor, RippleEffect, SectionReveal };

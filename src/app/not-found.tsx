@@ -9,7 +9,7 @@ import { FaHouse, FaArrowLeft } from "react-icons/fa6";
 
 import { Navbar, Footer, Background } from "@/components/common";
 import { Button } from "@/components/ui/button";
-import { quentine, nasalization } from "@/app/fonts";
+import { nasalization } from "@/app/fonts";
 
 export default function NotFound() {
   const router = useRouter();
@@ -40,7 +40,7 @@ export default function NotFound() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <h1
-                  className={`${quentine.className} text-7xl md:text-9xl lg:text-[10rem] font-bold text-primary leading-none`}
+                  className={`${nasalization.className} text-7xl md:text-9xl lg:text-[10rem] font-bold text-primary leading-none`}
                 >
                   404
                 </h1>
